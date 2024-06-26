@@ -28,8 +28,8 @@ const HeroSection = () => {
                 1000,
                 'App Developer',
                 1000,
-              
-    
+
+
               ]}
               wrapper="span"
               speed={50}
@@ -63,19 +63,20 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-          <Image
-  src="/images/img.jpeg"
-  alt="hero image"
-  className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-  width={250}
-  height={250}
-  style={{
-    borderRadius: '50%', // Apply a 50% border radius to make it a circle
-    width: '350px', // Set the width and height to match your desired dimensions
-    height: '350px',
-  }}
-/>
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[390px] lg:h-[400px] relative">
+            <Image
+              src="/images/img.jpeg"
+              alt="hero image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={250}
+              
+              height={250}
+              style={{
+                borderRadius: '50%', // Apply a 50% border radius to make it a circle
+                width: '350px', // Set the width and height to match your desired dimensions
+                height: '350px',
+              }}
+            />
           </div>
         </motion.div>
       </div>
