@@ -71,6 +71,7 @@ const HeroSection = () => {
               width={250}
               
               height={250}
+              
               style={{
                 borderRadius: '50%', // Apply a 50% border radius to make it a circle
                 width: '350px', // Set the width and height to match your desired dimensions
